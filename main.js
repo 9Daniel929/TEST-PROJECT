@@ -12,4 +12,5 @@ function spawn67() {
   a67.style.top = p + "px";
   a67.style.right = p + "px";
   document.body.appendChild(a67);
+  spawn67();
 }

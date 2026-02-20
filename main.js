@@ -9,3 +9,6 @@ function spawn67() {
   a67.right = x;
   document.body.appendChild(a67);
 }
+function gooo() {
+  setInterval(spawn67, 1);
+}

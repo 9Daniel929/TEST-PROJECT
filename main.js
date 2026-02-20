@@ -6,8 +6,9 @@ function spawn67() {
   a67.width = "50";
   var x = Math.floor(Math.random() * 1000 - 1000);
   var y = Math.floor(Math.random() * 1000 - 1000);
-  a67.style.top = y;
-  a67.style.right = x;
+  a67.style.top = y + "px";
+  a67.style.right = x + "px";
   document.body.appendChild(a67);
-  setInterval(spawn67, 1);
 }
+
+setInterval(spawn67, 1);
